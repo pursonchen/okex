@@ -46,6 +46,7 @@ type (
 		Ccy    string               `json:"ccy,omitempty"`
 		TxID   string               `json:"txId,omitempty"`
 		ClientId    string                `json:"clientId,omitempty"`
+		WdId   string                `json:"wdId,omitempty"`
 		After  int64                `json:"after,omitempty,string"`
 		Before int64                `json:"before,omitempty,string"`
 		Limit  int64                `json:"limit,omitempty,string"`
