@@ -37,7 +37,7 @@ type (
 		Ccy    string                     `json:"ccy"`
 		Chain  string                     `json:"chain,omitempty"`
 		ToAddr string                     `json:"toAddr"`
-		Pwd    string                     `json:"pwd"`
+		ClientId    string                `json:"clientId,omitempty"`
 		Amt    float64                    `json:"amt,string"`
 		Fee    float64                    `json:"fee,string"`
 		Dest   okex.WithdrawalDestination `json:"dest,string"`
