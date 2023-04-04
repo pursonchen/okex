@@ -50,6 +50,9 @@ type (
 		Limit  int64                `json:"limit,omitempty,string"`
 		State  okex.WithdrawalState `json:"state,omitempty,string"`
 	}
+	GetCurrencies struct {
+		Ccy string `json:"ccy"`
+	}
 	PiggyBankPurchaseRedemption struct {
 		Ccy    string               `json:"ccy,omitempty"`
 		TxID   string               `json:"txId,omitempty"`
